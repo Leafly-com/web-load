@@ -15,10 +15,10 @@ const makePath = () => {
 
 
 let opts = {
-    name: 'Menu load test - 60 per minute',
+    name: 'Menu load test',
     numUsers: 10,
     timeLimit: 120,
-    targetRps: 2,
+    targetRps: 1,
     requestGenerator: (client) => {
         return https.get({protocol: 'https:', host: host, path: makePath()})
     }
