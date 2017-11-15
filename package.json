@@ -1,0 +1,13 @@
+{
+  "name": "web-load",
+  "version": "1.0.0",
+  "description": "A small simple set of load tests",
+  "main": "index.js",
+  "author": "michael.barrett@leafly.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nodeload": "^0.4.0"
+  }
+}
